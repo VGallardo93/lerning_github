@@ -1,33 +1,6 @@
 #%%
-# -*- coding: utf-8 -*-
+# LERNING ABOUT GIT
 # PYTHON 3.7
-
-import os
-# from subprocess import call 
-from subprocess import run # python 3,5+
-
-# os.system("cls") # Envia un comando a la terminal para limpiar la pantalla
-# os.system no se recomienda (antigua y obsoleta), se recomienda call()
-# call("cls", shell = True) # Envia un comando a la terminal para limpiar la pantalla
-"""
-Advertencia Usar shell=Truepuede ser un peligro para la seguridad. 
-Consulte la advertencia en Argumentos de uso frecuente para obtener 
-más detalles.
-https://docs.python.org/2/library/subprocess.html
-"""
-run("cls", shell = True)
-# https://recursospython.com/guias-y-manuales/subprocess-creacion-y-comunicacion-con-procesos/
-msg1 = "\nStart script "
-msg2 = "\nEnd\
- script "
-scr = 1 # It indicates script number
-
-# Copy and paste the sentences bellow
-
-# print (msg1 + str(scr) + "\n")
-
-# print (msg2 + str(scr) + "\n")
-# scr += 1
 
 '''
 > mayor que
@@ -58,7 +31,6 @@ print(evaluacion(int(nota_alumno)))
 #-------------------------------------------------------------------------
 
 print('\n')
-print (msg1 + str(scr) + "\n")
 print("\tVerificación de acceso\n")
 edad_usuario = int(input("Intruduce tu edad: "))
 
