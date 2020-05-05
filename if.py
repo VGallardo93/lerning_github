@@ -73,28 +73,6 @@ print (msg2 + str(scr) + "\n")
 scr += 1
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #%%
 path_s = os.path.abspath(__file__)
 phrase_f = " ... >>> Finished succesfully."
