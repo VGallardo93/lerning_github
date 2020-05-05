@@ -69,36 +69,4 @@ elif edad_usuario > 100:
 else:
   print("Puedes pasar")
 
-print (msg2 + str(scr) + "\n")
-scr += 1
-
-
-#%%
-path_s = os.path.abspath(__file__)
-phrase_f = " ... >>> Finished succesfully."
-guion = len(path_s)
-
-print('\n' + '-' * ((len(path_s)) + len(phrase_f))) # Solo para estética. Hace coincidir los guiones con el punto final ">>> Finished succesfully."
-print("\n" + path_s + "\033[1;3;33m" + phrase_f + '\033[0;m' + "\n")
-# print (type(path_s))
-# print ('\n')
-print("\t\033[1;0mEND.\033[0;m\n")
-print('-' * ((len(path_s)) + len(phrase_f)) + '\n')
-print('\n')
-
-
-# %%
-
-'''
-
-       Negro       0;30     Gris oscuro    1;30
-       Azul        0;34     Azul claro     1;34
-       Verde       0;32     Verde claro    1;32
-       Cyan        0;36     Cyan claro     1;36
-       Rojo        0;31     Rojo claro     1;31
-       Purpura     0;35     Purpura claro  1;35
-       Marron      0;33     Amarillo       1;33
-       Gris claro  0;37     blanco         1;37
-
-https://en.wikipedia.org/wiki/ANSI_escape_code
-'''       
+print("\n>>> This is The End.")
