@@ -11,9 +11,18 @@ while True:
     continue
 
   else:
-    print('\nHi {name_}, nice to meet you.', name_)
+    print(f'\nHi {name_}! Nice to meet you.\n')
     break
 
-print('That\'s all folk!, bye!')
+# Passing an integer after the ':' will cause that field to be a minimum number of characters wide. This is useful for making columns line up.
+table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 7678}
+for name, phone in table.items():
+  print(f'{name:10} ==> {phone:10d}')
+
+# As an example, the following lines produce a tidily-aligned set of columns giving integers and their squares and cubes:
+for x in range(1, 11):
+  print('{0:2d} {1:3d} {2:4d}'.format(x, x*x, x*x*x))
+
+print('\n>>> That\'s all folk!, bye!\n')
 
 
